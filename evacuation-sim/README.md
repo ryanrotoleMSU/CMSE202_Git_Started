@@ -28,3 +28,11 @@ Run from terminal:
 python fire_sim.py
 python tornado_sim.py
 
+## 📈 Results
+
+- ✅ Total houses rescued: *X*
+- ❌ Total houses destroyed: *Y*
+- ⏱️ Average rescue time: *Z minutes*
+- 💥 Hazards involved: Fire, Tornado
+- 🔁 Rescue collisions handled dynamically
+
