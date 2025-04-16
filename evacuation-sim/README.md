@@ -36,3 +36,20 @@ python tornado_sim.py
 - 💥 Hazards involved: Fire, Tornado
 - 🔁 Rescue collisions handled dynamically
 
+## 📈 Results Summary
+
+### Forest Fire Simulation
+- 🔥 Total houses rescued: 6
+- 💥 Houses destroyed by fire: 0 (not tracked in fire_sim.py)
+- ⏱️ Simulation steps: 20
+
+### Tornado Simulation
+- ✅ Houses rescued before tornado: 6
+- ❌ Houses destroyed by tornado: 3
+- ⏱️ Max rescue time: 28 minutes
+
+### Tools Used
+- Python 3.10
+- NumPy
+- matplotlib
+
