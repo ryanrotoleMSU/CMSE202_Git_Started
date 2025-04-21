@@ -1,2 +1,55 @@
-# CMSE202_Git_Started
-CMSE 202 repository for the in-class assignment that involves collaborating with Git.
+# CMSE 202 Final Project: Forest Fire and Tornado Evacuation Simulation
+
+## 🔥 Abstract
+
+This project simulates real-time evacuation during two different natural hazards — a **forest fire** and a **tornado** — in a grid-based town environment. The simulation models the spread of hazards, the reaction of EMS (emergency responders), and evacuation outcomes using emoji-based visualization. Each simulation tracks:
+- Hazard spread
+- Rescue paths
+- Collisions with EMS or houses
+- Rescue times
+- Destruction logs
+
+We use **NumPy** and **matplotlib** for simulation and visualization. The results help analyze evacuation success and timing under dynamic disaster scenarios.
+
+## 🧪 Files
+
+| File | Purpose |
+|------|---------|
+| `fire_sim.py` | Simulates fire spread and rescue |
+| `tornado_sim.py` | Simulates tornado movement and house destruction |
+| `common_plot.py` | Shared emoji grid plotter |
+| `README.md` | This file |
+| `slides/final_presentation.pdf` | Final project presentation slides |
+
+## ▶️ How to Run
+
+Run from terminal:
+```bash
+python fire_sim.py
+python tornado_sim.py
+
+## 📈 Results
+
+- ✅ Total houses rescued: *X*
+- ❌ Total houses destroyed: *Y*
+- ⏱️ Average rescue time: *Z minutes*
+- 💥 Hazards involved: Fire, Tornado
+- 🔁 Rescue collisions handled dynamically
+
+## 📈 Results Summary
+
+### Forest Fire Simulation
+- 🔥 Total houses rescued: 6
+- 💥 Houses destroyed by fire: 0 (not tracked in fire_sim.py)
+- ⏱️ Simulation steps: 20
+
+### Tornado Simulation
+- ✅ Houses rescued before tornado: 6
+- ❌ Houses destroyed by tornado: 3
+- ⏱️ Max rescue time: 28 minutes
+
+### Tools Used
+- Python 3.10
+- NumPy
+- matplotlib
+
